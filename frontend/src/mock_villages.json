@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "village": "Village A",
+        "granted_claims": 12,
+        "status": "Granted"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.08, 21.14]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "village": "Village B",
+        "granted_claims": 5,
+        "status": "Pending"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.10, 21.16]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "village": "Village C",
+        "granted_claims": 8,
+        "status": "Granted"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.12, 21.12]
+      }
+    }
+  ]
+}
