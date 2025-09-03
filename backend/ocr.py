@@ -1,7 +1,37 @@
-def extract_text(file_path):
+import pdfplumber
+import pytesseract
+from pdf2image import convert_from_path
+from pathlib import Path
+from PIL import Image
+
+
+def extract_text(file_path: str) -> str:
     """
-    Stub function for OCR.
-    Replace with actual OCR logic (Tesseract, etc.) later.
+    Extract text from PDF.
+    - First try pdfplumber (works for text-based PDFs).
+    - If no text found, fall back to OCR using Tesseract on images.
     """
-    # For testing, just return the filename as "extracted text"
-    return f"Mock text extracted from {file_path}"
+
+    text_content = ""
+
+    # 1. Try extracting with pdfplumber
+    try:
+        with pdfplumber.open(file_path) as pdf:
+            for page in pdf.pages:
+                page_text = page.extract_text()
+                if page_text:
+                    text_content += page_text + "\n"
+    except Exception as e:
+        print(f"[OCR] pdfplumber failed: {e}")
+
+    # 2. Fallback: OCR with Tesseract if pdfplumber gave nothing
+    if not text_content.strip():
+        try:
+            images = convert_from_path(file_path)
+            for img in images:
+                text_content += pytesseract.image_to_string(img) + "\n"
+        except Exception as e:
+            print(f"[OCR] Tesseract OCR failed: {e}")
+
+    # 3. Final return
+    return text_content.strip() or "NO_TEXT_EXTRACTED"
