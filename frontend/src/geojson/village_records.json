@@ -1,0 +1,181 @@
+[
+  {
+    "state": "Telangana",
+    "district": "Warangal",
+    "village": "Kothapally",
+    "patta_holder": "Ramesh Kumar",
+    "claim_status": "Granted",
+    "date": "2019-07-12",
+    "address": "Kothapally, Warangal, Telangana",
+    "land_area": "12 acres",
+    "coordinates": [79.15, 18.45]
+  },
+  {
+    "state": "Telangana",
+    "district": "Warangal",
+    "village": "Warangal",
+    "patta_holder": "Mahesh Reddy",
+    "claim_status": "Granted",
+    "date": "2020-01-22",
+    "address": "Warangal, Telangana",
+    "land_area": "11 acres",
+    "coordinates": [79.59, 17.98]
+  },
+  {
+    "state": "Telangana",
+    "district": "Adilabad",
+    "village": "Adilabad",
+    "patta_holder": "Savita Naik",
+    "claim_status": "Pending",
+    "date": "2021-03-15",
+    "address": "Adilabad, Telangana",
+    "land_area": "9 acres",
+    "coordinates": [78.53, 19.67]
+  },
+  {
+    "state": "Telangana",
+    "district": "Adilabad",
+    "village": "Nirmal",
+    "patta_holder": "Arun Patil",
+    "claim_status": "Granted",
+    "date": "2022-11-02",
+    "address": "Nirmal, Adilabad, Telangana",
+    "land_area": "7 acres",
+    "coordinates": [78.35, 19.10]
+  },
+
+  {
+    "state": "Madhya Pradesh",
+    "district": "Shivpuri",
+    "village": "Shivpuri",
+    "patta_holder": "Meena Bai",
+    "claim_status": "Granted",
+    "date": "2021-06-10",
+    "address": "Shivpuri, Madhya Pradesh",
+    "land_area": "6 acres",
+    "coordinates": [77.65, 25.43]
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Shivpuri",
+    "village": "Pohri",
+    "patta_holder": "Ravi Patel",
+    "claim_status": "Pending",
+    "date": "2022-02-18",
+    "address": "Pohri, Shivpuri, Madhya Pradesh",
+    "land_area": "8 acres",
+    "coordinates": [77.59, 25.20]
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Chhindwara",
+    "village": "Chhindwara",
+    "patta_holder": "Sohan Lal",
+    "claim_status": "Granted",
+    "date": "2020-09-05",
+    "address": "Chhindwara, Madhya Pradesh",
+    "land_area": "9 acres",
+    "coordinates": [78.94, 22.06]
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Chhindwara",
+    "village": "Parasia",
+    "patta_holder": "Kanta Bai",
+    "claim_status": "Pending",
+    "date": "2021-12-01",
+    "address": "Parasia, Chhindwara, Madhya Pradesh",
+    "land_area": "5 acres",
+    "coordinates": [78.76, 22.20]
+  },
+
+  {
+    "state": "Tripura",
+    "district": "Gomati",
+    "village": "Belonia",
+    "patta_holder": "Ranjana Debbarma",
+    "claim_status": "Granted",
+    "date": "2020-03-21",
+    "address": "Belonia, Gomati, Tripura",
+    "land_area": "7 acres",
+    "coordinates": [91.45, 23.25]
+  },
+  {
+    "state": "Tripura",
+    "district": "Gomati",
+    "village": "Amarpur",
+    "patta_holder": "Nabendu Tripura",
+    "claim_status": "Pending",
+    "date": "2022-08-14",
+    "address": "Amarpur, Gomati, Tripura",
+    "land_area": "6 acres",
+    "coordinates": [91.66, 23.53]
+  },
+  {
+    "state": "Tripura",
+    "district": "North Tripura",
+    "village": "Dharmanagar",
+    "patta_holder": "Bipin Reang",
+    "claim_status": "Pending",
+    "date": "2021-10-09",
+    "address": "Dharmanagar, North Tripura, Tripura",
+    "land_area": "10 acres",
+    "coordinates": [92.16, 24.37]
+  },
+  {
+    "state": "Tripura",
+    "district": "North Tripura",
+    "village": "Kailashahar",
+    "patta_holder": "Animesh Chakma",
+    "claim_status": "Granted",
+    "date": "2020-05-27",
+    "address": "Kailashahar, North Tripura, Tripura",
+    "land_area": "8 acres",
+    "coordinates": [92.01, 24.33]
+  },
+
+  {
+    "state": "Odisha",
+    "district": "Koraput",
+    "village": "Koraput",
+    "patta_holder": "Jagdish Majhi",
+    "claim_status": "Granted",
+    "date": "2019-11-30",
+    "address": "Koraput, Odisha",
+    "land_area": "15 acres",
+    "coordinates": [82.73, 18.81]
+  },
+  {
+    "state": "Odisha",
+    "district": "Koraput",
+    "village": "Jeypore",
+    "patta_holder": "Padma Naik",
+    "claim_status": "Pending",
+    "date": "2022-04-17",
+    "address": "Jeypore, Koraput, Odisha",
+    "land_area": "6 acres",
+    "coordinates": [82.58, 18.86]
+  },
+  {
+    "state": "Odisha",
+    "district": "Kandhamal",
+    "village": "Phulbani",
+    "patta_holder": "Sunita Pradhan",
+    "claim_status": "Pending",
+    "date": "2021-01-13",
+    "address": "Phulbani, Kandhamal, Odisha",
+    "land_area": "6 acres",
+    "coordinates": [84.23, 20.47]
+  },
+  {
+    "state": "Odisha",
+    "district": "Kandhamal",
+    "village": "G. Udayagiri",
+    "patta_holder": "Manoj Pradhan",
+    "claim_status": "Granted",
+    "date": "2020-06-22",
+    "address": "G. Udayagiri, Kandhamal, Odisha",
+    "land_area": "8 acres",
+    "coordinates": [84.25, 20.13]
+  }
+]
