@@ -1,0 +1,14 @@
+INSERT INTO villages (state, district, block, village, lat, lon) VALUES ('Madhya Pradesh','Shivpuri',NULL,'Kailashpur',25.4300,77.6500);
+INSERT INTO villages (state, district, block, village, lat, lon) VALUES ('Madhya Pradesh','Shivpuri',NULL,'Rampur',25.3500,77.8000);
+INSERT INTO villages (state, district, block, village, lat, lon) VALUES ('Madhya Pradesh','Chhindwara',NULL,'Chhoti Bari',22.0600,79.1800);
+INSERT INTO villages (state, district, block, village, lat, lon) VALUES ('Madhya Pradesh','Chhindwara',NULL,'Beldih',22.2000,79.1500);
+INSERT INTO villages (state, district, block, village, lat, lon) VALUES ('Odisha','Koraput',NULL,'Koraput Basti',18.8200,82.7300);
+INSERT INTO villages (state, district, block, village, lat, lon) VALUES ('Odisha','Koraput',NULL,'Lamtapalli',18.9000,82.6500);
+INSERT INTO villages (state, district, block, village, lat, lon) VALUES ('Odisha','Kandhamal',NULL,'Kandha Tola',20.4700,84.0200);
+INSERT INTO villages (state, district, block, village, lat, lon) VALUES ('Odisha','Kandhamal',NULL,'Daringbadi',20.3500,84.0300);
+INSERT INTO villages (state, district, block, village, lat, lon) VALUES ('Telangana','Warangal',NULL,'Warangal Cheruvu',17.9800,79.5800);
+INSERT INTO villages (state, district, block, village, lat, lon) VALUES ('Telangana','Warangal',NULL,'Narsampet',17.4300,79.7300);
+INSERT INTO villages (state, district, block, village, lat, lon) VALUES ('Telangana','Adilabad',NULL,'Adilabad Peta',19.6500,78.5300);
+INSERT INTO villages (state, district, block, village, lat, lon) VALUES ('Telangana','Adilabad',NULL,'Sirpur',19.4500,78.4800);
+INSERT INTO villages (state, district, block, village, lat, lon) VALUES ('Tripura','West',NULL,'Agartala West End',23.8300,91.2800);
+INSERT INTO villages (state, district, block, village, lat, lon) VALUES ('Tripura','West',NULL,'Sadar Bazar',23.8200,91.2800);
